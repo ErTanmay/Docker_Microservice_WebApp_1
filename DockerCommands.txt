@@ -1,0 +1,5 @@
+# Command to run Host App 
+docker run --name host-app -d -p 8080:8080 tanmaylokhande/host_app:latest
+
+# Command to run Client App 
+docker run --name host-app -d -p 8080:8080 tanmaylokhande/client_app:latest
